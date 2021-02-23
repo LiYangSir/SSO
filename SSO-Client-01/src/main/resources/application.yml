@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: SSO-Client-01
+
+sso:
+  certification:
+    center-url: http://localhost:8080
+    path: /login

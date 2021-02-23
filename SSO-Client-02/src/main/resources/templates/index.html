@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h2 th:text="${session.get('user')}">你好，</h2>
+
+<h2>客户端-2-基本信息</h2>
+<ul>
+    <li>国际</li>
+    <li>大陆</li>
+    <li>台湾</li>
+    <li>港澳</li>
+</ul>
+</body>
+</html>

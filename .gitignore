@@ -1,0 +1,4 @@
+# Project exclude paths
+/SSO-Certification-Center/target/
+/SSO-Client-01/target/
+/SSO-Client-02/target/
